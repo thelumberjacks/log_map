@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogMapConsoleTest", "LogMapConsoleTest\LogMapConsoleTest.vcxproj", "{0DEBBC60-087A-47AD-9FAA-3D7CCFD4E760}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F078F452-F8C5-4821-A102-9D71526E0A1C} = {F078F452-F8C5-4821-A102-9D71526E0A1C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogMapCore", "LogMapCore\LogMapCore.vcxproj", "{F078F452-F8C5-4821-A102-9D71526E0A1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DEBBC60-087A-47AD-9FAA-3D7CCFD4E760}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DEBBC60-087A-47AD-9FAA-3D7CCFD4E760}.Debug|Win32.Build.0 = Debug|Win32
+		{0DEBBC60-087A-47AD-9FAA-3D7CCFD4E760}.Release|Win32.ActiveCfg = Release|Win32
+		{0DEBBC60-087A-47AD-9FAA-3D7CCFD4E760}.Release|Win32.Build.0 = Release|Win32
+		{F078F452-F8C5-4821-A102-9D71526E0A1C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F078F452-F8C5-4821-A102-9D71526E0A1C}.Debug|Win32.Build.0 = Debug|Win32
+		{F078F452-F8C5-4821-A102-9D71526E0A1C}.Release|Win32.ActiveCfg = Release|Win32
+		{F078F452-F8C5-4821-A102-9D71526E0A1C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
